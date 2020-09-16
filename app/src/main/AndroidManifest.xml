@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.noteapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/note"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/note"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen2"
+        >
+
+
+        <activity android:name=".editNote.Editnote"></activity>
+        <activity android:name=".Home.HomePage" />
+        <activity android:name=".addNote.addNote" />
+        <activity android:name=".splash.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
